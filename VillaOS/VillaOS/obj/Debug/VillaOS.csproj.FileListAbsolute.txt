@@ -1,0 +1,15 @@
+c:\users\caleb\documents\vos\VillaOS\VillaOS\VillaOS\bin\Debug\VillaOS.dll
+c:\users\caleb\documents\vos\VillaOS\VillaOS\VillaOS\bin\Debug\VillaOS.pdb
+c:\users\caleb\documents\vos\VillaOS\VillaOS\VillaOS\bin\Debug\Cosmos.Core.dll
+c:\users\caleb\documents\vos\VillaOS\VillaOS\VillaOS\bin\Debug\Cosmos.Debug.Kernel.dll
+c:\users\caleb\documents\vos\VillaOS\VillaOS\VillaOS\bin\Debug\Cosmos.HAL.dll
+c:\users\caleb\documents\vos\VillaOS\VillaOS\VillaOS\bin\Debug\Cosmos.System.dll
+c:\users\caleb\documents\vos\VillaOS\VillaOS\VillaOS\bin\Debug\Cosmos.Common.dll
+c:\users\caleb\documents\vos\VillaOS\VillaOS\VillaOS\bin\Debug\Cosmos.Core.pdb
+c:\users\caleb\documents\vos\VillaOS\VillaOS\VillaOS\bin\Debug\Cosmos.HAL.pdb
+c:\users\caleb\documents\vos\VillaOS\VillaOS\VillaOS\bin\Debug\Cosmos.System.pdb
+c:\users\caleb\documents\vos\VillaOS\VillaOS\VillaOS\bin\Debug\Cosmos.Debug.Kernel.pdb
+c:\users\caleb\documents\vos\VillaOS\VillaOS\VillaOS\bin\Debug\Cosmos.Common.pdb
+c:\users\caleb\documents\vos\VillaOS\VillaOS\VillaOS\obj\Debug\VillaOS.csprojResolveAssemblyReference.cache
+c:\users\caleb\documents\vos\VillaOS\VillaOS\VillaOS\obj\Debug\VillaOS.dll
+c:\users\caleb\documents\vos\VillaOS\VillaOS\VillaOS\obj\Debug\VillaOS.pdb
