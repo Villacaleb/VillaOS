@@ -55,6 +55,7 @@ namespace VillaOS
             //This would be the main command handler.
             var command = Console.ReadLine();
             Console.WriteLine(command);
+            commands();
         }
     }
 }
