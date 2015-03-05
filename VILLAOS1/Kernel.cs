@@ -12,10 +12,9 @@ namespace VillaOS1
          TODO Alpha 1:
          * Password and username system.
          * Calculator
-         * Filing system (Cancled, is on hold till further noticed)
+         * Filing system
          * and more
          * 
-         * Tonight and tomorrow I'm gonna refractor the code, there will be a command file with the main command handler, login folder and a file system folder
          */
 
         // Notes:
