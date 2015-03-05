@@ -19,7 +19,7 @@ namespace VillaOS1
             }
             if (command == "load")
             {
-                //load();
+                Filesystem.read();
             }
         }
     }

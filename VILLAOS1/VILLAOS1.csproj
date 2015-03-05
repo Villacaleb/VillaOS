@@ -45,7 +45,6 @@
     <Compile Include="AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="file\" />
     <Folder Include="login\" />
   </ItemGroup>
   <ItemGroup>
@@ -60,6 +59,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>command.cs</DependentUpon>
     </Content>
+    <Content Include="file\File1.asm">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>File.cs</DependentUpon>
+    </Content>
+    <Content Include="file\Filesystem1.asm">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Filesystem.cs</DependentUpon>
+    </Content>
     <Content Include="programs\calculator1.asm">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -70,6 +79,18 @@
     <Compile Include="programs\calculator.cs">
       <Generator>CosmosXSharpGenerator</Generator>
       <LastGenOutput>calculator1.asm</LastGenOutput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="file\Filesystem.cs">
+      <Generator>CosmosXSharpGenerator</Generator>
+      <LastGenOutput>Filesystem1.asm</LastGenOutput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="file\File.cs">
+      <Generator>CosmosXSharpGenerator</Generator>
+      <LastGenOutput>File1.asm</LastGenOutput>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
