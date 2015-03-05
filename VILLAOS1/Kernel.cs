@@ -14,6 +14,8 @@ namespace VillaOS1
          * Calculator
          * Filing system (Cancled, is on hold till further noticed)
          * and more
+         * 
+         * Tonight and tomorrow I'm gonna refractor the code, there will be a command file with the main command handler, login folder and a file system folder
          */
 
         // Notes:
@@ -46,62 +48,12 @@ namespace VillaOS1
                         Console.WriteLine("Logining in.."); // After logining in, it will load everything,
                         login = true;
                         Console.WriteLine("Loading Command...");
-                        Command.commands();
+                        command.commands();
 
                     }
                 }
             }
         }
 
-    }
-    public class Command
-    {
-        public static void commands()
-        {
-            //This would be the main command handler.
-            var command = Console.ReadLine();
-            Console.WriteLine(command);
-            if (command == "calculator")
-            {
-                calculator();
-            }
-            if(command == "load")
-            {
-                load();
-            }
-        }
-        public static void calculator()
-        {
-            int[] numbers = new int[3]; 
-            int sum = 0;
-            Console.WriteLine("Adding or Subtracting? (+ or -)");
-            var sign = Console.ReadLine();
-            Console.WriteLine("Number:");
-            string input = Console.ReadLine();
-            numbers[1] = Int32.Parse(input);
-            Console.WriteLine("Number: ");
-            input = Console.ReadLine();
-            numbers[2] = Int32.Parse(input);
-            Console.WriteLine("Number: ");
-            input = Console.ReadLine();
-            numbers[3] = Int32.Parse(input);
-            if(sign == "+")
-            {
-                sum = numbers[1] + numbers[2] + numbers[3];
-            }
-            if(sign == "-")
-            {
-                sum = numbers[1] - numbers[2] - numbers[3];
-            }
-            Console.WriteLine(sum);
-            commands();
-            
-
-
-        }
-        public static void load()
-        {
-            
-        }
     }
 }
