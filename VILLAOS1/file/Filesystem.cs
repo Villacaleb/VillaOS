@@ -11,11 +11,22 @@ namespace VillaOS1
 
             public static string[] Files = new string[100]; // 100 files is the limit
 			public static void read(){
-                Files[1] = "g";
                 Console.WriteLine("What file do you want to open?");
                 var input = Console.ReadLine();
                 int i = Int32.Parse(input);
                 Console.WriteLine(Files[i]);
+                command.commands();
+            }
+            public static void write()
+            {
+                Console.WriteLine("What file do you want to write?");
+                var input = Console.ReadLine();
+                int i = Int32.Parse(input);
+                Console.WriteLine("Opening File..");
+                Console.WriteLine("File opened, please tpye in what you want to write");
+                input = Console.ReadLine();
+                Files[i] = input;
+                command.commands();
             }
     
     } 

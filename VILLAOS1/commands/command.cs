@@ -10,16 +10,24 @@ namespace VillaOS1
         public static void commands()
         {
             //This would be the main command handler.
-            Console.WriteLine("Command Loaded");
+            Console.WriteLine("Please enter a command");
             var command = Console.ReadLine();
             Console.WriteLine(command);
             if (command == "calculator")
             {
                 calculator.Calculator();
             }
-            if (command == "load")
+            else if (command == "read")
             {
                 Filesystem.read();
+            }
+            else if (command == "write")
+            {
+                Filesystem.write();
+            }
+            else
+            {
+                Console.WriteLine("command not found");
             }
         }
     }

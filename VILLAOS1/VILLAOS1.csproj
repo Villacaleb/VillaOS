@@ -44,9 +44,7 @@
     <Compile Include="Kernel.cs" />
     <Compile Include="AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="login\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Compile Include="commands\command.cs">
       <Generator>CosmosXSharpGenerator</Generator>
