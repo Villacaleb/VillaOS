@@ -1,0 +1,15 @@
+C:\Users\Caleb\Documents\Visual Studio 2013\Projects\VILLAOS1\VILLAOS1\bin\Debug\VILLAOS1.dll
+C:\Users\Caleb\Documents\Visual Studio 2013\Projects\VILLAOS1\VILLAOS1\bin\Debug\VILLAOS1.pdb
+C:\Users\Caleb\Documents\Visual Studio 2013\Projects\VILLAOS1\VILLAOS1\bin\Debug\Cosmos.Core.dll
+C:\Users\Caleb\Documents\Visual Studio 2013\Projects\VILLAOS1\VILLAOS1\bin\Debug\Cosmos.Debug.Kernel.dll
+C:\Users\Caleb\Documents\Visual Studio 2013\Projects\VILLAOS1\VILLAOS1\bin\Debug\Cosmos.HAL.dll
+C:\Users\Caleb\Documents\Visual Studio 2013\Projects\VILLAOS1\VILLAOS1\bin\Debug\Cosmos.System.dll
+C:\Users\Caleb\Documents\Visual Studio 2013\Projects\VILLAOS1\VILLAOS1\bin\Debug\Cosmos.Common.dll
+C:\Users\Caleb\Documents\Visual Studio 2013\Projects\VILLAOS1\VILLAOS1\bin\Debug\Cosmos.Core.pdb
+C:\Users\Caleb\Documents\Visual Studio 2013\Projects\VILLAOS1\VILLAOS1\bin\Debug\Cosmos.HAL.pdb
+C:\Users\Caleb\Documents\Visual Studio 2013\Projects\VILLAOS1\VILLAOS1\bin\Debug\Cosmos.System.pdb
+C:\Users\Caleb\Documents\Visual Studio 2013\Projects\VILLAOS1\VILLAOS1\bin\Debug\Cosmos.Debug.Kernel.pdb
+C:\Users\Caleb\Documents\Visual Studio 2013\Projects\VILLAOS1\VILLAOS1\bin\Debug\Cosmos.Common.pdb
+C:\Users\Caleb\Documents\Visual Studio 2013\Projects\VILLAOS1\VILLAOS1\obj\Debug\VILLAOS1.dll
+C:\Users\Caleb\Documents\Visual Studio 2013\Projects\VILLAOS1\VILLAOS1\obj\Debug\VILLAOS1.pdb
+C:\Users\Caleb\Documents\Visual Studio 2013\Projects\VILLAOS1\VILLAOS1\obj\Debug\VILLAOS1.csprojResolveAssemblyReference.cache
