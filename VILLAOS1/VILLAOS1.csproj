@@ -44,6 +44,34 @@
     <Compile Include="Kernel.cs" />
     <Compile Include="AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="file\" />
+    <Folder Include="login\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="commands\command.cs">
+      <Generator>CosmosXSharpGenerator</Generator>
+      <LastGenOutput>command1.asm</LastGenOutput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="commands\command1.asm">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>command.cs</DependentUpon>
+    </Content>
+    <Content Include="programs\calculator1.asm">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>calculator.cs</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="programs\calculator.cs">
+      <Generator>CosmosXSharpGenerator</Generator>
+      <LastGenOutput>calculator1.asm</LastGenOutput>
+    </Compile>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
