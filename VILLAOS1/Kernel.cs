@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Sys = Cosmos.System;
+using System.Threading;
 
 namespace VillaOS1
 {
@@ -28,8 +29,11 @@ namespace VillaOS1
         protected override void BeforeRun()
         {
             Console.WriteLine("VillaOS starting...");
-            Console.WriteLine("VillaOS was created by Caleb Bird and VillaOS contributors.");
+            Console.WriteLine("Timer is starting...");
+            Console.WriteLine("Timer has started");
             Console.WriteLine("VillaOS started.");
+            Console.WriteLine("VillaOS was created by Caleb Bird and VillaOS contributors.");
+
         }
 
         protected override void Run()

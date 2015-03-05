@@ -25,6 +25,10 @@ namespace VillaOS1
             {
                 Filesystem.write();
             }
+            else if (command == "compile")
+            {
+                vatcompiler.compiler();
+            }
             else
             {
                 Console.WriteLine("command not found");

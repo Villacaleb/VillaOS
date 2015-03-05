@@ -44,7 +44,12 @@
     <Compile Include="Kernel.cs" />
     <Compile Include="AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="programs\vatcompiler.cs">
+      <Generator>CosmosXSharpGenerator</Generator>
+      <LastGenOutput>vatcompiler.asm</LastGenOutput>
+    </Compile>
+  </ItemGroup>
   <ItemGroup>
     <Compile Include="commands\command.cs">
       <Generator>CosmosXSharpGenerator</Generator>
@@ -72,6 +77,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>calculator.cs</DependentUpon>
     </Content>
+    <Content Include="programs\vatcompiler.asm">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vatcompiler.cs</DependentUpon>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="programs\calculator.cs">
@@ -91,6 +101,7 @@
       <LastGenOutput>File1.asm</LastGenOutput>
     </Compile>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
